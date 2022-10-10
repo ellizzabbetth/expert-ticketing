@@ -35,3 +35,11 @@ in auth: npm update @elizabethtickets/common
 Common
 npm run build
 npm run pub
+
+
+NATS
+==============
+skaffold dev
+kubectl get pods
+in nats-test$ kubectl port-forward <nats-depl-8454bc5f97-snw96> 4222:4222
+npm run publish
