@@ -15,6 +15,8 @@ In auth: npm run test
 In client: docker build -t ellizzabbetth/client .
 docker push ellizzabbetth/client
 
+In orders: docker build -t ellizzabbetth/orders .
+
 To run in browser
 =====
 ticketing.dev
